@@ -163,6 +163,15 @@ mvn test
 # Ejecutar con reporte de cobertura
 mvn test jacoco:report
 ```
+### Resultados en Local:
+
+<img width="771" height="863" alt="image" src="https://github.com/user-attachments/assets/4db7d49d-d988-4a85-abd9-f03631dd68b5" />
+<img width="756" height="561" alt="image" src="https://github.com/user-attachments/assets/a4acabcb-1fec-43df-9e0c-3f5b6cda9562" />
+
+
+
+
+
 
 ## ☁️ Infraestructura AWS
 
