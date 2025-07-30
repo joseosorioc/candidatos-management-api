@@ -146,11 +146,15 @@ Todas las respuestas de error siguen el formato estructurado:
 ### Ejecutar Pruebas
 Importante: Tener configuradas las variables ambientes que puede encontrarlas en ElasticBeanStalk > Environments > Api-candidatos
 
+<img width="1846" height="311" alt="image" src="https://github.com/user-attachments/assets/6879c0ba-12ae-48b1-b48b-744b5e7246d9" />
+
+<img width="1514" height="361" alt="image" src="https://github.com/user-attachments/assets/7f5b5ee0-b22c-4af0-b04e-93b555c30afd" />
+
+
+
 ```bash
 # Ejecutar todos los tests - 
-<img width="1846" height="311" alt="Screenshot 2025-07-30 at 1 37 28 AM" src="https://github.com/user-attachments/assets/fa36870a-da69-4298-85ec-8b3776c6ffe8" />
 
-<img width="1514" height="361" alt="image" src="https://github.com/user-attachments/assets/e5dc7b30-dbd5-4a56-b975-47bfbdd29043" />
 
 Luego que en local tenga las variables con los valores, puede ejecutar
 
