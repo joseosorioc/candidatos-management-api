@@ -41,6 +41,6 @@ public class SwaggerConfig {
                                 new SecurityScheme()
                                         .type(SecurityScheme.Type.HTTP)
                                         .scheme("basic")
-                                        .description("Autenticación HTTP Basic. Usuario: admin, Password: admin123")));
+                                        .description("Autenticación HTTP Basic. Usuario: [Usuario Compartido], Password: [Password Compartida]")));
     }
 }
