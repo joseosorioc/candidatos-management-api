@@ -263,6 +263,12 @@ La aplicación expone métricas a través de Spring Boot Actuator:
 - **Métricas de base de datos** - Conexiones, queries
 - **Métricas custom** - Candidatos creados, métricas calculadas
 
+### En Cloudwatch:
+
+<img width="1901" height="794" alt="image" src="https://github.com/user-attachments/assets/ed1986df-2d04-4545-bed3-0e314a10aefe" />
+
+
+
 ### Endpoints de Monitoreo
 
 ```http
@@ -337,3 +343,5 @@ El diseño considera escalabilidad horizontal:
 - Console: AWS Elastic Beanstalk, RDS, CloudWatch
 
 **Swagger:** `http://api-candidatos-env.eba-svqmjzpm.us-east-1.elasticbeanstalk.com/swagger-ui.html`
+
+
