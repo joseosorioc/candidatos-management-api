@@ -81,7 +81,7 @@ GET /swagger-ui.html
 GET /actuator/health
 ```
 
-## 📊 Cálculos Automáticos
+## Cálculos Automáticos
 
 La API realiza cálculos derivados automáticamente para cada candidato, fue un excelente punto poder proporcionar otros calculos:
 
@@ -90,7 +90,7 @@ La API realiza cálculos derivados automáticamente para cada candidato, fue un 
 - **Edad en meses** total
 - **Fecha estimada de evento** (75 años desde nacimiento)
 
-## 🔒 Seguridad Implementada
+## Seguridad Implementada
 
 ### Autenticación HTTP Basic
 - Usuario: `[Usuario Compartido]`
@@ -107,7 +107,7 @@ La API realiza cálculos derivados automáticamente para cada candidato, fue un 
 - CSRF deshabilitado (API REST)
 - Respuestas de error en formato JSON estructurado
 
-## 🚨 Manejo de Errores
+## Manejo de Errores
 
 Implementé un sistema robusto de manejo de excepciones con códigos HTTP apropiados:
 
@@ -129,7 +129,7 @@ Todas las respuestas de error siguen el formato estructurado:
 }
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Pruebas Implementadas
 
@@ -221,21 +221,7 @@ SERVER_PORT=8080
 ```bash
 git clone https://github.com/josekarllos/candidatos-management-api.git
 cd candidatos-management-api
-```
 
-2. **Configurar base de datos:**
-```sql
-CREATE DATABASE candidatos_db;
-```
-
-3. **Configurar variables de ambiente:**
-```bash
-export DB_URL=jdbc:mysql://localhost:3306/candidatos_db
-export DB_USERNAME=root
-export DB_PASSWORD=tu_password
-export SECURITY_USERNAME=admin
-export SECURITY_PASSWORD=admin123
-```
 
 4. **Compilar y ejecutar:**
 ```bash
@@ -257,7 +243,7 @@ mvn clean package -Dmaven.test.skip=true
 # El JAR se genera en target/candidatos-management-api-1.0-SNAPSHOT.jar
 ```
 
-## 📈 Monitoreo y Observabilidad
+##  Monitoreo y Observabilidad
 
 ### Métricas Disponibles
 
@@ -286,7 +272,7 @@ Implementé validaciones robustas para garantizar integridad de datos:
 - **Coherencia entre edad y fecha de nacimiento** (tolerancia ±1 año)
 - **Límite de antigüedad** (máximo 150 años)
 
-## 📚 Documentación Técnica
+## Documentación Técnica
 
 ### Swagger/OpenAPI
 
