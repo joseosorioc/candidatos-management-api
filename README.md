@@ -93,8 +93,8 @@ La API realiza cálculos derivados automáticamente para cada candidato, fue un 
 ## 🔒 Seguridad Implementada
 
 ### Autenticación HTTP Basic
-- Usuario: `admin`
-- Password: `admin123`
+- Usuario: `[Usuario Compartido]`
+- Password: `Password Compartida`
 
 
 ### Endpoints Públicos
